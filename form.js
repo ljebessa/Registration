@@ -1,5 +1,5 @@
 //jshint esversion:6
-var port = process.env.port || 3000;
+var PORT = process.env.PORT || 3000;
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
@@ -117,7 +117,7 @@ res.render('confirmationResult', {data: req.body});
 
 
 
-app.listen(3000, function(){
+app.listen(PORT, function(){
   console.log("server is runniong on port 3000");
 });
 
