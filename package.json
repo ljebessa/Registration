@@ -4,7 +4,8 @@
   "description": "",
   "main": "form.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node form.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
     "express": "^4.17.1",
     "geohash": "0.0.1",
     "path": "^0.12.7",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "start": "^5.1.0"
   }
 }
